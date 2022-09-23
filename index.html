@@ -8,37 +8,29 @@
     body {
       background-color: black;
       color: white;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .cover-image {
-      width: 90vw;
-      height: 90vw;
-      max-width: 90vh;
-      max-height: 90vh;
       border-radius: 50%;
-      /* center */
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-
     }
 
-    .text {
-      font-family: sans-serif;
-      position: relative;
-      top: 100vh;
-      padding-bottom: 200px;
-
-    }
 
     a {
       color: white;
       font-style: italic;
-    }
-
-    .logo {
-      margin: auto;
     }
 
     .center {
@@ -49,51 +41,49 @@
 </head>
 
 <body>
-  <img class="cover-image" src="./img.png">
-  <div class="text">
+  <div class="slide">
+    <img class="cover-image" src="./img.png">
+  </div>
 
-    <div class="center">
-      <img class="'logo" src="./logo.jpeg">
+  <div class="slide">
+    <img class="'logo" src="./logo.jpeg">
+  </div>
+  <div class="slide">
+    <div class="text">
 
-      <p>
 
-        Download <a href="https://oey.es/images-1">these images</a><br><br>Unzip the folder<br><br>Use the images as
-        the<br>
-        screensaver on your computer<br>
-        or background for your phone
 
-      </p>
+      Download <a href="https://oey.es/images-1">these images</a><br><br>Unzip the folder<br><br>Use the images as
+      the<br>
+      screensaver on your computer<br>
+      or background for your phone
 
-      <h2>
-        Setup
-      </h2>
       <h3>
         iOS
       </h3>
 
-      <p>Follow this
-      <p>
+      Follow this
 
-        <a href="https://support.apple.com/en-us/HT200285">Guide</a><br>
 
-      <p>
-        and select on tap<br>for changing wallpaper<br>
-      </p>
+      <a href="https://support.apple.com/en-us/HT200285">Guide</a><br>
+
+
+      and select on tap<br>for changing wallpaper<br>
 
 
       <h3>
         Mac
       </h3>
 
-      <p>System Preferences<br>↓<br> Desktop & Screen Saver<br>↓<br> Screen Saver<br>↓<br> Floating
-        <br>↓<br> Source
-      </p>
+      System Preferences↓<br> Desktop & Screen Saver↓<br> Screen Saver↓<br> Floating
+      ↓<br> Source
 
       <h3>
         Windows
       </h3>
-      <p>Settings<br>↓<br> Personalization<br>↓<br> Lock screen<br>↓<br> Screen saver</p>
+      Settings↓<br> Personalization↓<br> Lock screen↓<br> Screen saver</p>
     </div>
+
 
 
   </div>
