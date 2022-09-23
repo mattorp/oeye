@@ -7,27 +7,87 @@
   <style>
     body {
       background-color: black;
-      margin: 0;
-      padding: 0;
+      color: white;
     }
 
-    img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    .cover-image {
       width: 90vw;
       height: 90vw;
       max-width: 90vh;
       max-height: 90vh;
       border-radius: 50%;
+      /* center */
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .text {
+      font-family: sans-serif;
+      position: relative;
+      top: 100vh;
+      padding-bottom: 200px;
+
+    }
+
+    a {
+      color: white;
+      font-style: italic;
+    }
+
+    .logo {
+      margin: auto;
+    }
+
+    .center {
+      text-align: center;
     }
 
   </style>
 </head>
 
 <body>
-  <img src="./img.png">
+  <img class="cover-image" src="./img.png">
+  <div class="text">
+
+    <div class="center">
+      <img class="'logo" src="./logo.jpeg">
+
+      <p>
+
+        Download <a href="https://oey.es/images-1">these images</a><br><br>Unzip the folder<br><br>Use the images as
+        the<br>
+        screensaver on your computer<br>
+        or background for your phone
+
+      </p>
+
+      <h2>
+        Setup
+      </h2>
+      <h3>
+        iOS
+      </h3>
+      <a href="https://support.apple.com/en-us/HT200285">Guide</a>
+
+      <h3>
+        Mac
+      </h3>
+
+      <p>System Preferences<br>↓<br> Desktop & Screen Saver<br>↓<br> Screen Saver<br>↓<br> Shifting Tiles
+        <br>↓<br> Source
+      </p>
+
+      <h3>
+        Windows
+      </h3>
+      <p>Settings<br>↓<br> Personalization<br>↓<br> Lock screen<br>↓<br> Screen saver</p>
+    </div>
+
+
+  </div>
 </body>
 
 </html>
